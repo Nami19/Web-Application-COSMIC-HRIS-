@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: #8E7B6B;
+    height: 5vh;
+    margin-top: 1px;
+}
+
+
+.logo {
+    width: 113px;
+    height: auto;
+    border-radius: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.header-content {
+    background-color: #000000;
+    height: 14vh;
+}
+
+.cosmic {
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    font-weight: bold;
+    padding: 8px;
+    float: left;
+}
+
+
+.menu {
+    height: 14px;
+
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 11px 15px;
+    border: 1px solid transparent;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    background-color: rgb(255, 255, 255);
+    color: #8E7B6B;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cosmic {
+        font-size: 40px;
+    }
+
+    ul li {
+        margin-left: 30px;
+        font-size: 12px;
+    }
+
+    .features {
+        padding: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        width: 100%;
+    }
+
+    .cosmic {
+        font-size: 30px;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    ul li {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .features {
+        padding: 30px;
+    }
+
+    .welcome {
+        margin: 10px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cosmic {
+        font-size: 24px;
+    }
+
+    ul li {
+        font-size: 10px;
+    }
+
+    .features {
+        padding: 20px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
+
+.features {
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.responsive {
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    border-radius: 10px;
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+welcome {
+    background: #4a90e2;
+    color: rgb(0, 0, 0);
+    padding: 20px 5;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: #716868;
+    border-radius: 8px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+body {
+    font-family: Arial;
+    background-color: #EBDBD5;
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.feature1 {
+    color: rgb(255, 254, 254);
+    font-size: 50px;
+}
+
+.footer {
+    background-color: #1c1e22;
+    color: white;
+    padding: 40px 20px;
+    text-align: left;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-about,
+.footer-links,
+.footer-newsletter {
+    flex: 1;
+    margin: 10px;
+    min-width: 250px;
+}
+
+.footer-about h3,
+.footer-links h3,
+.footer-newsletter h3 {
+    margin-bottom: 15px;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin: 5px 0;
+}
+
+.footer-links a {
+    color: #61dafb;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-newsletter form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-newsletter input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-newsletter button {
+    padding: 10px;
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.footer-newsletter button:hover {
+    background-color: #21a1f1;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}
